@@ -26,6 +26,7 @@ Microsoft Excel – Data preprocessing and cleaning
 Data Visualization Techniques – KPI cards, charts, maps, and scatter analysis
 
 📈 Dashboard Features
+
 1️⃣ Sales Performance Overview
 
 Provides a high-level summary of overall business performance.
