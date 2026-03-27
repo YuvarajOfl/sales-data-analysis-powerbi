@@ -1,123 +1,140 @@
-📊 Sales Data Analysis Dashboard
+# 📊 Sales Data Analysis Dashboard (Power BI)
 
-An interactive Sales Data Analysis dashboard built using Power BI to explore business performance across regions, product categories, and profitability metrics.
-The dashboard transforms raw sales data into actionable insights that support data-driven decision making.
+## 🚀 Project Overview
+This project focuses on analyzing sales data to extract meaningful business insights using **Power BI**. The goal is to transform raw transactional data into **interactive dashboards** that support data-driven decision-making.
 
+The dashboard provides a comprehensive view of:
+- Sales performance
+- Revenue trends
+- Customer behavior
+- Market insights
 
-🎯 Project Objective
+---
 
-The goal of this project is to analyze sales data and identify:
+## 🎯 Problem Statement
+Businesses generate large volumes of sales data, but extracting actionable insights from raw data is challenging.
 
-Top-performing regions
+This project aims to:
+- Clean and transform raw sales data  
+- Build a scalable data model  
+- Create insightful visualizations  
+- Enable stakeholders to monitor performance effectively  
 
-Most profitable product categories
+---
 
-Relationship between sales and profit
+## 🧰 Tech Stack
+- **Power BI** – Data Visualization & Dashboarding  
+- **Power Query** – Data Cleaning & Transformation  
+- **DAX (Data Analysis Expressions)** – Calculated Measures  
+- **SQL** – Data Extraction & Analysis  
+- **Excel / CSV** – Raw Dataset  
 
-Key factors influencing profit margins and discounts
+---
 
+## 🔄 Workflow / Approach
 
-🛠 Tools & Technologies
+### 1. Data Collection
+- Imported sales dataset from structured sources (CSV/SQL)
 
-Power BI – Dashboard development and visualization
+### 2. Data Cleaning & Transformation
+- Removed null values and duplicates  
+- Standardized formats  
+- Handled inconsistent data  
 
-DAX (Data Analysis Expressions) – KPI calculations
+### 3. Data Modeling
+- Built relationships between tables  
+- Designed schema (Star Schema) for efficient querying  
 
-Microsoft Excel – Data preprocessing and cleaning
+### 4. Data Analysis
+- Created KPIs using DAX such as:
+  - Total Sales  
+  - Total Profit  
+  - Profit Margin  
+  - Year-over-Year Growth  
+- Performed time-based and regional analysis  
 
-Data Visualization Techniques – KPI cards, charts, maps, and scatter analysis
+### 5. Visualization
+- Built interactive dashboards using:
+  - KPI Cards  
+  - Bar Charts  
+  - Line Charts  
+  - Pie Charts  
+  - Slicers (filters)
 
+---
 
-📈 Dashboard Features
+## 📊 Key Insights
+- Identified top-performing products and regions  
+- Analyzed monthly and yearly revenue trends  
+- Detected underperforming categories impacting profitability  
+- Observed seasonal sales patterns  
+- Enabled comparative analysis across regions and product segments  
 
-1️⃣ Sales Performance Overview
+---
 
-Provides a high-level summary of overall business performance.
+## 📸 Dashboard Preview
 
-Key KPIs
-
-Total Sales
-
-Total Profit
-
-Profit Margin
-
-Average Discount
-
-2️⃣ Regional Sales & Profit Analysis
-
-Analyzes performance across different regions to identify high-performing markets.
-
-Insights include:
-
-Regional sales contribution
-
-Profit comparison across regions
-
-Geographic sales distribution
-
-3️⃣ Product Category Performance
-
-Evaluates sales and profitability across different product categories.
-
-Analysis includes:
-
-Category-wise sales contribution
-
-Profit distribution by category
-
-Sub-category performance comparison
-
-4️⃣ Profitability Insights & Performance Drivers
-
-Uses analytical visualizations to understand efficiency and profitability.
-
-Key analysis:
-
-Sales vs Profit scatter plot
-
-Profit margin comparison across categories
-
-Identification of high-revenue but low-margin segments
-
-
-🔍 Key Insights
-
-Technology category demonstrates strong profitability and efficient sales conversion.
-
-Furniture category generates high revenue but operates with lower profit margins.
-
-Some product segments show high sales but weaker profitability, indicating possible pricing or discount strategies impacting margins.
-
-
-📷 Dashboard Preview
-
+### 🔹 Overview Dashboard
 <img width="1411" height="780" alt="Overview" src="https://github.com/user-attachments/assets/ecd86a48-053d-43ba-9e30-3297055b685d" />
+
+### 🔹 Regional Analysis
 <img width="1408" height="786" alt="Regional_Analysis" src="https://github.com/user-attachments/assets/21bb2d00-537a-41cc-a3e5-6fe7145bf83e" />
+
+### 🔹 Product Analysis
 <img width="1405" height="787" alt="Product_Analysis" src="https://github.com/user-attachments/assets/01583174-7197-44c1-bb7c-d9efe9908a9b" />
+
+### 🔹 Profitability Analysis
 <img width="1403" height="784" alt="Profitability_Analysis" src="https://github.com/user-attachments/assets/c3a793cd-07e8-4073-b3ce-84c4043284aa" />
 
+---
 
-Example:
+## 📈 Business Impact
+- Enabled stakeholders to monitor KPIs in real-time  
+- Improved decision-making using interactive dashboards  
+- Highlighted revenue growth opportunities  
+- Identified loss-making segments for optimization  
+- Provided a clear understanding of customer and regional trends  
 
-🚀 Business Value
+---
 
-This dashboard helps stakeholders:
+## 🛠️ How to Use
 
-Monitor overall sales performance
+1. Clone the repository:
+```bash
+git clone https://github.com/YuvarajOfl/sales-data-analysis-powerbi.git
+```
 
-Identify profitable and underperforming product categories
+2. Open the `.pbix` file using **Power BI Desktop**
 
-Understand regional market trends
+3. Interact with filters and visuals to explore insights
 
-Make informed strategic business decisions
+---
 
+## 📂 Repository Structure
+```
+├── data/                # Raw dataset
+├── dashboard.pbix      # Power BI dashboard file
+├── images/             # Dashboard screenshots
+├── sql/                # SQL queries (if any)
+└── README.md
+```
 
-👨‍💻 Author
+---
 
-Yuvaraj T
-Computer Science Undergraduate | Data Analytics Enthusiast
+## 🔮 Future Enhancements
+- Integrate real-time data sources (APIs / streaming data)  
+- Implement predictive analytics (sales forecasting using ML)  
+- Deploy dashboard to Power BI Service for cloud access  
+- Add role-based access control (RBAC)  
+- Enhance dashboard UI/UX for better usability  
 
-LinkedIn: https://linkedin.com/in/YuvarajT
+---
 
-GitHub: https://github.com/YuvarajOfl
+## 🤝 Connect with Me
+- LinkedIn: https://www.linkedin.com/in/yuvaraj8  
+- GitHub: https://github.com/YuvarajOfl  
+
+---
+
+## ⭐ Support
+If you found this project useful, consider giving it a ⭐ and sharing your feedback!
